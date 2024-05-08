@@ -1,5 +1,5 @@
 n = int(input("Enter the number of records: "))
-hashTable = [[] for _ in range(n)]
+hashTable = [[] for i in range(n)]
 
 # FUNCTION FOR LINEAR PROBING
 def linearProbing(val, name, phone):
